@@ -9,12 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var categoryButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
-
+    @IBAction func categoryButtonPressed(_ sender: Any) {
+        
+    }
+    
+    
 }
 
