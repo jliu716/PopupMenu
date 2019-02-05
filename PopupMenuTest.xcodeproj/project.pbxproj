@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8486922C220A49F3005704BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8486922B220A49F3005704BD /* LaunchScreen.storyboard */; };
+		84869230220A4EE6005704BD /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486922F220A4EE6005704BD /* PopUpViewController.swift */; };
 		849EFCB9220A48BA008D4150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFCB8220A48BA008D4150 /* AppDelegate.swift */; };
 		849EFCBB220A48BA008D4150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFCBA220A48BA008D4150 /* ViewController.swift */; };
 		849EFCBE220A48BA008D4150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849EFCBC220A48BA008D4150 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		8486922B220A49F3005704BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8486922F220A4EE6005704BD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		849EFCB5220A48BA008D4150 /* PopupMenuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupMenuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849EFCB8220A48BA008D4150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849EFCBA220A48BA008D4150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8486922E220A4EBF005704BD /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
+				8486922F220A4EE6005704BD /* PopUpViewController.swift */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
 		849EFCAC220A48BA008D4150 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		849EFCB7220A48BA008D4150 /* PopupMenuTest */ = {
 			isa = PBXGroup;
 			children = (
+				8486922E220A4EBF005704BD /* PopUp */,
 				849EFCB8220A48BA008D4150 /* AppDelegate.swift */,
 				849EFCBA220A48BA008D4150 /* ViewController.swift */,
 				849EFCBC220A48BA008D4150 /* Main.storyboard */,
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849EFCBB220A48BA008D4150 /* ViewController.swift in Sources */,
+				84869230220A4EE6005704BD /* PopUpViewController.swift in Sources */,
 				849EFCB9220A48BA008D4150 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
