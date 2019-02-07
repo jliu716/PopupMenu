@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SBCardPopup
 
 class ViewController: UIViewController {
     
@@ -18,7 +19,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func categoryButtonPressed(_ sender: Any) {
-        
+        let popupContent = PopUpViewController.create()
+        let cardPopup = SBCardPopupViewController(contentViewController: popupContent)
+        cardPopup.show(onViewController: self)
     }
     
     

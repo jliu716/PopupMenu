@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15C1206C69D8BCE3F576878D /* Pods_PopupMenuTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95801D0818CC934C37C81E4D /* Pods_PopupMenuTest.framework */; };
+		842F8E3D220CC8B2004C69CF /* AutoSizingTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F8E3C220CC8B2004C69CF /* AutoSizingTestViewController.swift */; };
 		8486922C220A49F3005704BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8486922B220A49F3005704BD /* LaunchScreen.storyboard */; };
 		84869230220A4EE6005704BD /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8486922F220A4EE6005704BD /* PopUpViewController.swift */; };
 		849EFCB9220A48BA008D4150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849EFCB8220A48BA008D4150 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 		249F8FCEFF7AF4D935818B7E /* Pods-PopupMenuTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMenuTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopupMenuTestTests/Pods-PopupMenuTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		51DD8E5BF4B2C42F32EFD117 /* Pods-PopupMenuTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupMenuTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopupMenuTestTests/Pods-PopupMenuTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E9686D49722441C715C9969 /* Pods_PopupMenuTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopupMenuTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842F8E3C220CC8B2004C69CF /* AutoSizingTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSizingTestViewController.swift; sourceTree = "<group>"; };
 		8486922B220A49F3005704BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8486922F220A4EE6005704BD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		849EFCB5220A48BA008D4150 /* PopupMenuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupMenuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				8486922F220A4EE6005704BD /* PopUpViewController.swift */,
+				842F8E3C220CC8B2004C69CF /* AutoSizingTestViewController.swift */,
 			);
 			path = PopUp;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849EFCBB220A48BA008D4150 /* ViewController.swift in Sources */,
+				842F8E3D220CC8B2004C69CF /* AutoSizingTestViewController.swift in Sources */,
 				84869230220A4EE6005704BD /* PopUpViewController.swift in Sources */,
 				849EFCB9220A48BA008D4150 /* AppDelegate.swift in Sources */,
 			);
